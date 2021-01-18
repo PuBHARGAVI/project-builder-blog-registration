@@ -38,18 +38,6 @@ public class RegistrationValidation{
 		return true;
 	}
 	private boolean validEmail(String email) {
-		/*if(email.isEmpty()) {
-			return false;
-		}
-		for(int i=0;i<email.length();i++) {
-			if((Character.isDigit(email.charAt(i)))||(email.charAt(i)>='a' && email.charAt(i)<='z')||(email.charAt(i)>='A' && email.charAt(i)<='Z')||(email.charAt(i)=='@')||(email.charAt(i)=='_')||(email.charAt(i)=='.')) {
-			continue;	
-			}
-			else {
-				return false;
-			}
-		}
-		return true;*/
 		String emailReg = "^[a-zA-Z0-9_+&*-]+(?:\\."+ 
                 "[a-zA-Z0-9_+&*-]+)*@" + 
                 "(?:[a-zA-Z0-9-]+\\.)+[a-z" + 
